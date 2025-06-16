@@ -48,7 +48,7 @@ Find your next favorite movie! 🍿✨
    ```
 
 5. **Open in your browser:**  
-   🌐 [http://localhost:3000](http://localhost:3000)
+   🌐 [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -68,8 +68,5 @@ movie-website/
 ```
 
 ---
-
-## 📜 License
-
-This project is for educational purposes.  
-Made with ❤️ by JS
+  
+Made with ❤️ by YN
