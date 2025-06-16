@@ -1,12 +1,60 @@
-# React + Vite
+# Movie Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React.js movie website built as part of the JS Mastery course.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse popular, top-rated, and upcoming movies
+- Search for movies by title
+- View detailed information about each movie
+- Responsive design for all devices
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- CSS Modules / Styled Components
+- TMDB API
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/yamneg96/movie-website.git
+   ```
+
+2. **Install dependencies:**
+   ```
+   cd movie-website
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your TMDB API key:
+     ```
+     REACT_APP_TMDB_API_KEY=your_api_key_here
+     ```
+
+4. **Run the development server:**
+   ```
+   npm start
+   ```
+
+5. **Open in your browser:**
+   - Visit [http://localhost:3000](http://localhost:3000)
+
+## Folder Structure
+
+```
+movie-website/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── api/
+│   └── App.js
+├── .env
+├── package.json
+└── README.md
+```
+---
