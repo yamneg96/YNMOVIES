@@ -1,49 +1,58 @@
-# Movie Website
+# 🎬 Movie Website
 
-A modern React.js movie website built as part of the JS Mastery course.
+A modern React.js movie website built as part of the JS Mastery course.  
+Find your next favorite movie! 🍿✨
 
-## Features
+---
 
-- Browse popular, top-rated, and upcoming movies
-- Search for movies by title
-- View detailed information about each movie
-- Responsive design for all devices
+## 🚀 Features
 
-## Tech Stack
+- 🔥 Browse popular, top-rated, and upcoming movies
+- 🔎 Search for movies by title
+- 📝 View detailed information about each movie
+- 📱 Responsive design for all devices
 
-- React.js
-- CSS Modules / Styled Components
-- TMDB API
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-1. **Clone the repository:**
-   ```
+- ⚛️ React.js
+- 🎨 CSS Modules / Styled Components
+- 🎥 TMDB API
+
+---
+
+## 🏁 Getting Started
+
+1. **Clone the repository:**  
+   ```bash
    git clone https://github.com/yamneg96/movie-website.git
    ```
 
-2. **Install dependencies:**
-   ```
+2. **Install dependencies:**  
+   ```bash
    cd movie-website
    npm install
    ```
 
-3. **Set up environment variables:**
+3. **Set up environment variables:**  
    - Create a `.env` file in the root directory.
-   - Add your TMDB API key:
+   - Add your TMDB API key:  
      ```
      REACT_APP_TMDB_API_KEY=your_api_key_here
      ```
 
-4. **Run the development server:**
-   ```
+4. **Run the development server:**  
+   ```bash
    npm start
    ```
 
-5. **Open in your browser:**
-   - Visit [http://localhost:3000](http://localhost:3000)
+5. **Open in your browser:**  
+   🌐 [http://localhost:3000](http://localhost:3000)
 
-## Folder Structure
+---
+
+## 📁 Folder Structure
 
 ```
 movie-website/
@@ -57,4 +66,10 @@ movie-website/
 ├── package.json
 └── README.md
 ```
+
 ---
+
+## 📜 License
+
+This project is for educational purposes.  
+Made with ❤️ by JS
