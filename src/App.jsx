@@ -4,6 +4,8 @@ import Spinner from './components/Spinner.jsx'
 import MovieCard from './components/MovieCard.jsx'
 import { useDebounce } from 'react-use'
 import { getTrendingMovies, updateSearchCount } from './appwrite.js'
+import Footer from './components/Footer.jsx'
+
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
@@ -128,6 +130,8 @@ const App = () => {
           )}
         </section>
       </div>
+
+      <Footer />
     </main>
   )
 }
