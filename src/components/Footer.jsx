@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='border-2 border-amber-50 bg-black flex-col'>
     <div className='text-white text-3xl text-left font-sans'>
-      YNMOVIES: Welcome, where you can find your favourite movies here 😊.
+      <span className='text-cyan-600'>YNMOVIES</span> : Welcome, where you can find your favourite movies here 😊.
       </div>
       <div>
 
