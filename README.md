@@ -1,4 +1,4 @@
-# 🎬 Movie Website
+# 🎬 YNMOVIES
 
 A modern React.js movie website built as part of the JS Mastery course.  
 Find your next favorite movie! 🍿✨
