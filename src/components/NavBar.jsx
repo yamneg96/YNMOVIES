@@ -33,16 +33,16 @@ const NavBar = () => {
       <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
         <div className="flex shrink-0 items-center">
           <img src="/logo.png" alt="NYMOVIES LOGO" className="h-8 w-auto" />
-          <span className='text-cyan-600 hover:text-white flex justify-center font-bold'>YNMOVIES</span>
+          <span className='rounded-mdtext-white hover:bg-gray-700 hover:text-white flex justify-center font-bold'>YNMOVIES</span>
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
             {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-            <a href="#" aria-current="page" className="rounded-md hover:bg-gray-700 px-3 py-2 text-sm font-medium text-cyan-600 hover:text-white">Home</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Genres</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Country</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Movies</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Tv-Series</a>
+            <a href="#" aria-current="page" className="rounded-md hover:bg-gray-700 px-3 py-2 text-sm font-medium text-white hover:text-white">Home</a>
+            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white">Genres</a>
+            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white">Country</a>
+            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white">Movies</a>
+            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-700 hover:text-white">Tv-Series</a>
           </div>
         </div>
       </div>
@@ -52,11 +52,11 @@ const NavBar = () => {
   <div id="mobile-menu" className={isMenuOpen ? "sm:hidden" : "sm:hidden hidden"}>
     <div className="space-y-1 px-2 pt-2 pb-3">
       {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-      <a href="#" aria-current="page" className="block rounded-md hover:bg-gray-700 px-3 py-2 text-base font-medium text-cyan-600 hover:text-white">Home</a>
-      <a href="#"  className="block rounded-md px-3 py-2 text-base font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Genres</a>
-      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Country</a>
-      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Movies</a>
-      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-cyan-600 hover:bg-gray-700 hover:text-white">Tv-Series</a>
+      <a href="#" aria-current="page" className="block rounded-md hover:bg-gray-700 px-3 py-2 text-base font-medium text-white hover:text-white">Home</a>
+      <a href="#"  className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white">Genres</a>
+      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white">Country</a>
+      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white">Movies</a>
+      <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white">Tv-Series</a>
     </div>
   </div>
 </nav>
