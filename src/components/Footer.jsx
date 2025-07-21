@@ -2,33 +2,40 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='border-2 border-amber-50 bg-black flex-col'>
-    <div className='text-white text-3xl text-left font-sans'>
-      <span className='text-cyan-600'>YNMOVIES</span> 
-      : Welcome, where you can find your favourite movies here 😊.
+    <div className='border-2 shadow-2xl shadow-cyan-400 rounded-t-2xl'>
+      <div className='text-white text-center pb-4 font-sans'>
+        <span className='text-cyan-600 flex justify-center text-2xl font-bold'>YNMOVIES <img className='w-15 h-10' src="/logo.png" alt="Logo" /></span> 
+        &nbsp; Free movies online, here you can watch movies online in high quality for free without annoying of advertising, just come and enjoy your movies online.
       </div>
-      <div className='flex '>
-      <span className='text-cyan-600'>Countries </span>
+      <div className='flex text-center justify-evenly'>
+        <span className='text-cyan-600 px-4 font-bold'>COUNTRIES
+          <ul className='text-white'>
+            <li>United States</li>
+            <li>United Kingdom</li>
+            <li>Asia</li>
+            <li>France</li>
+          </ul>
+        </span>
+        <span className='text-cyan-600 font-bold'>GENRES
         <ul className='text-white'>
-          <li>USA</li>
-          <li>UK</li>
-          <li>ASIA</li>
-        </ul>
-      <span className='text-cyan-600'>Genres </span>
-      <ul className='text-white'>
-          <li>USA</li>
-          <li>UK</li>
-          <li>ASIA</li>
-        </ul>
-      <span className='text-cyan-600'>Contact </span>
-      <ul className='text-white'>
-          <li>USA</li>
-          <li>UK</li>
-          <li>ASIA</li>
-        </ul>
+            <li>Drama</li>
+            <li>Horror</li>
+            <li>Fantasy</li>
+            <li>Mystery</li>
+            <li>Sci-Fi & Fantasy</li>
+          </ul>
+        </span>
+        <span className='text-cyan-600 font-bold'>HELP
+        <ul className='text-white'>
+            <li>FAQ's</li>
+            <li>UCMA</li>
+          </ul>
+        </span>
+      </div>
+      <div className='text-white text-center p-8'>
+        Copyright &copy; 2025 NYMOVIES All Rights Reserved.
       </div>
     </div>
   )
 }
-
 export default Footer

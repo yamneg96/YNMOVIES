@@ -5,6 +5,7 @@ import MovieCard from './components/MovieCard.jsx'
 import { useDebounce } from 'react-use'
 import { getTrendingMovies, updateSearchCount } from './appwrite.js'
 import Footer from './components/Footer.jsx'
+import NavBar from './components/NavBar.jsx'
 
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
@@ -89,6 +90,7 @@ const App = () => {
 
   return (
     <main>
+      <NavBar />
       <div className="pattern"/>
 
       <div className="wrapper">
