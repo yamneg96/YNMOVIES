@@ -1,4 +1,6 @@
-# 🎬 YNMOVIES
+# 🎬 NYMOVIES
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c3a06b7f-23b8-447e-a7cb-9db32f0a5a5f/deploy-status)](https://app.netlify.com/projects/nymovies/deploys)
 
 A modern React.js movie website built as part of the JS Mastery course.  
 Find your next favorite movie! 🍿✨
